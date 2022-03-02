@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpIntermediateInheritance
 {   
-    internal class PresentationObject
+    public class PresentationObject
     {
         public int Width { get; set; }  
         public int Height { get; set; }
