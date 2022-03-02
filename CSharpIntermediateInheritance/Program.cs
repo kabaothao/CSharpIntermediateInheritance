@@ -3,15 +3,18 @@
 
 
 
+
 using System;
 
 namespace CSharpIntermediateInheritance // Note: actual namespace depends on the project name.
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var text = new Text();
+            text.Width = 100;
+            text.Copy();
         }
     }
 }
@@ -25,4 +28,14 @@ A kind of relationship between two classes that allows on to inherit code from t
 Is - A
 Example: A Car is a Vehicle.
  
+
+Again I'll convert inheritance in more details in the section called inheritance for this section.
+
+All I wanted to take away is that inheritance is a kind of relationship or association between classes
+
+and it has two benefits.
+
+One is code reuse.
+
+
  */
